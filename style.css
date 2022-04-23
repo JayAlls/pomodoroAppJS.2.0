@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #bcd8ff;
+}
+
+.box {
+  padding: 0;
+  margin-top: -22px;
+  background-color: #77b0ff;
+}
+
+.box .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+}
+
+.box .timer .worktimer, .box .timer .breaktimer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box .timer #counter {
+  margin: 0 30px;
+  padding-right: 10px;
+}
+
+.box .btnBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box .btnBox .btn {
+  font-size: 1.3rem;
+  border: 1px solid #77b0ff;
+  color: #77b0ff;
+}
+
+.box .btnBox .btn:hover {
+  background-color: rgba(5, 122, 255, 0.515);
+  color: whitesmoke;
+  border-color: whitesmoke;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
